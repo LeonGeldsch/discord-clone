@@ -1,0 +1,30 @@
+.home-main-section {
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 550px;
+    background-color: #7289da;
+}
+
+.text-wrapper {
+    min-width: 500px;
+}
+
+.image {
+    display: block;
+    bottom: 0;
+    position: absolute;
+}
+
+.left-image {
+    right: 50%;
+    margin-right: 368px;
+}
+
+.right-image {
+    left: 50%;
+    margin-left: 368px;
+}
