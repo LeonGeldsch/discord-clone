@@ -18,6 +18,7 @@
 }
 
 body {
+    overflow-x: hidden;
     padding: 0 0;
     margin: 0 0;
     background-color: white;
@@ -152,4 +153,42 @@ body {
 .text-wrapper {
     max-width: 380px;
 
+}
+
+#wave {
+    position: relative;
+    height: 70px;
+    width: 594px;
+    background: white;
+  }
+  #wave:before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 340px;
+    height: 80px;
+    background-color: #f1f1f1;
+    right: -5px;
+    top: 40px;
+  }
+  #wave:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 300px;
+    height: 70px;
+    background-color: white;
+    left: 0;
+    top: 27px;
+  }
+
+.section-voice-channel {
+    height: 100vh;
+    background-color: #f1f1f1;
+}
+
+.wave {
+    background-color: white;
 }
