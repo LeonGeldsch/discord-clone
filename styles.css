@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'whitney';
-    src: url('/fonts/whitneymedium.woff') format("woff");
+    src: url('fonts/whitneymedium.woff') format("woff");
 }
 
 @font-face {
     font-family: 'whitney-bold';
-    src: url('/fonts/whitneybold.woff') format("woff");
+    src: url('fonts/whitneybold.woff') format("woff");
 }
 
 @font-face {
     font-family: 'whitney-book';
-    src: url('/fonts/whitneybook.woff') format("woff");
+    src: url('fonts/whitneybook.woff') format("woff");
 }
 
 *, *::before, *::after {
@@ -60,7 +60,7 @@ body {
 }
 
 .main-header {
-    background-color: #7289da;
+    background-color: #4363d8;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,12 +93,15 @@ body {
 }
 
 .btn {
+    position: relative;
     color: #23272a;
     background-color: #ffffff;
     border-radius: 1.2rem;
     padding: .6rem 1rem;
+    margin: 10px 10px;
     font-family: 'whitney-book';
     text-decoration: none;
+    z-index: 1;
 }
 
 .btn:hover {
@@ -111,6 +114,8 @@ body {
 
 .btn-big {
     font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border-radius: 40px;
 }
 
 .btn-black {
@@ -127,12 +132,24 @@ body {
 
 }
 
-.wrapper {
-    background-color: #7289da;
+.main-section-wrapper {
+    background-color: #4363d8;
     margin: 0 auto;
     padding: 0 170px;
     width: 100%;
     text-align: center;
 }
 
+.section-study-group {
+    color: #23272a;
+    background-color: white;
+    display: flex;
+    padding: 130px 10%;
+    align-items: center;
+    margin: 0 auto;
+}
 
+.text-wrapper {
+    max-width: 380px;
+
+}

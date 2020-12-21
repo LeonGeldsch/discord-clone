@@ -6,11 +6,9 @@
     text-align: center;
     justify-content: space-between;
     height: 550px;
-    background-color: #7289da;
-}
-
-.text-wrapper {
-    min-width: 500px;
+    background-color: #4363d8;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 .image {
@@ -27,4 +25,9 @@
 .right-image {
     left: 50%;
     margin-left: 368px;
+}
+
+.background-image {
+    right: -30%;
+    z-index: 0;
 }
