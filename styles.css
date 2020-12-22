@@ -112,11 +112,13 @@ body {
     font-family: 'whitney-book';
     text-decoration: none;
     z-index: 1;
+    box-shadow: none; transition: box-shadow .2s;
 }
 
 .btn:hover {
-    box-shadow: 5px 5px 26px -7px rgba(0,0,0,0.44);
+    box-shadow: 10px 10px 26px -7px rgba(0,0,0,0.44); transition: box-shadow .2s;
 }
+
 
 .btn-group {
     padding: 50px 100px;
