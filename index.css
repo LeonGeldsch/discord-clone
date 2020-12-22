@@ -11,6 +11,11 @@
     max-width: 800px;
 }
 
+.main-secton-wrapper .title::selection,.subtitle::selection {
+    color: white;
+    background-color: rgb(51, 135, 204);
+}
+
 .image {
     display: block;
     bottom: 0;
